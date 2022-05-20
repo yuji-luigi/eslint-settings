@@ -1,0 +1,156 @@
+{
+  "files.associations": {
+    "*.ejs": "html"
+  },
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/.history": true,
+    "**/.next": true
+  },
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "ejs": "html"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "eslint.workingDirectories": [
+    "./",
+    {
+      "mode": "auto"
+    }
+  ],
+  // "[javascript]": {
+  // },
+  "[javascriptreact]": {
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    // "editor.defaultFormatter": "vscode.typescript-language-features",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[json]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 4,
+    "editor.insertSpaces": false,
+    "files.trimTrailingWhitespace": true
+  },
+  "json.format.enable": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.formats": [
+    // Default
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
+  "editor.tabSize": 4,
+
+  "rest-client.showResponseInDifferentTab": true,
+  "editor.detectIndentation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.enable": true,
+  // "typescript.suggest.paths": false ,
+  // "javascript.suggest.paths": false ,
+  "debug.allowBreakpointsEverywhere": true,
+  "diffEditor.wordWrap": "on",
+  "timeline.excludeSources": [],
+  "kite.showWelcomeNotificationOnStartup": false,
+  "window.zoomLevel": -1,
+  "fileHeaderComment.parameter": {
+    "*": {
+      "author": "Yuji Sato",
+      "company": "ShadApps",
+      "commentbegin": "/**",
+      "commentprefix": "* ",
+      "commentend": "* */",
+      "shadapps": [
+        "* ************************************",
+        " ${company} CONFIDENTIAL",
+        "__________________",
+        "Created by ${author}",
+        "",
+        "2020 (c) ShadApps Srl",
+        "All Rights Reserved.",
+        "NOTICE:  All information contained herein is, and remains",
+        "the property of ShadApps Srl and its suppliers,",
+        "herein are proprietary to ShadApps Srl.",
+        "and its suppliers and may be covered by Italian, European and Foreign Patents,",
+        "patents in process, and are protected by trade secret or copyright law.",
+        "Dissemination of this information or reproduction of this material",
+        "is strictly forbidden unless prior written permission is obtained",
+        "from ShadApps Srl.",
+        "**************************************"
+      ]
+    }
+  },
+  "fileHeaderComment.template": {
+    "personal-yuji": [
+      "${commentbegin}",
+      "${commentprefix} Created on ${date}",
+      "${commentprefix}",
+      "${commentprefix} Copyright (c) ${year} ${author}",
+      "${commentend}"
+    ],
+    "shadapps": ["${commentbegin}", "${shadapps}", "${commentend}"]
+  },
+  "editor.inlineSuggest.enabled": true,
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    // "DEBUG:",
+    // "REVIEW:",
+    {
+      "text": "NOTE:",
+      "border": "1px solid green",
+      "color": "green",
+      "backgroundColor": "rgba(0,0,0,.2)",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    // {
+    //     "text": "HACK:",
+    //     "color": "#000",
+    //     "isWholeLine": false,
+    // },
+    {
+      // "text": "TODO:",
+      // "color": "red",
+      // "border": "1px solid red",
+      "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+      "backgroundColor": "rgba(0,0,0,.2)"
+      // "isWholeLine": true
+      //other styling properties goes here ...
+    }
+    // "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+  ],
+
+  "todo-tree.filtering.excludeGlobs": ["**/node_modules", "**/.history"],
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": true
+  },
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}
